@@ -1,0 +1,13 @@
+{
+  "name": "aura-discord-bot",
+  "version": "1.0.0",
+  "description": "Aura COO Discord Bot for Creativ Ventures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "axios": "^1.0.0"
+  }
+}
