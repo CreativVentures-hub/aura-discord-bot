@@ -87,18 +87,19 @@ Need something specific? Just mention me with your request! 🚀`;
         }
         
         else if (content.includes('team') || content.includes('agents')) {
-            const teamStatus = `👥 **AI Team Status Report:**
+    const teamStatus = `👥 **AI Team Status Report:**
 
-🎯 **Aura (COO)** - Online & Managing Operations
-🎨 **Echo (CMO)** - Ready for Marketing & Content Tasks  
-🎭 **Cipher (CBIO)** - Ready for Brand & Design Tasks
-🛒 **Zenith (CMPO)** - Ready for Amazon Marketplace Tasks
-🔧 **Forge (CDO)** - Ready for Shopify Development Tasks
+🎯 **Aura (COO)** - ✅ **Online Now** - Managing Operations
+📊 **Zenith (CMPO)** - ✅ **Operational** - Market Analysis & Rebranding
+🎨 **Cipher (CBIO)** - ⏳ **Development** - Brand Guidelines & Visual Identity
+📢 **Echo (CMO)** - ⏳ **Development** - Marketing Strategy & Content
+🛠️ **Forge (CDO)** - ⏳ **Development** - E-commerce & Shopify Development
 
-All AI agents are operational and ready to receive task assignments!`;
-            
-            message.reply(teamStatus);
-        }
+**Active Agents:** 2/5 operational with inter-agent communication working!
+**Current Focus:** Building Cipher (Brand Designer) next`;
+    
+    message.reply(teamStatus);
+}
         
         else if (content.includes('escalate') || content.includes('urgent')) {
             message.reply('🚨 **Issue Escalation Protocol Activated!** I\'ve noted this for immediate human attention. Tagging <@everyone> for urgent review. Please provide details about the issue that needs escalation.');
